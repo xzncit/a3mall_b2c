@@ -1,0 +1,8 @@
+{
+  "defaultTitle": "商品评价",
+  "titleBarColor": "#B91922",
+  "usingComponents": {
+    "mall-info": "/components/tool/info",
+    "sx-rate": "/components/sx-rate/index"
+  }
+}

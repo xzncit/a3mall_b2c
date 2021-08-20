@@ -1,0 +1,1 @@
+<block wx:if="{{canvasId}}"><view><block wx:if="{{use2dCanvas}}"><canvas style="{{(size+';'+customStyle)}}" id="{{canvasId}}" type="2d"></canvas></block><block wx:else><canvas style="{{(size+';'+customStyle)}}" canvas-id="{{canvasId}}" id="{{canvasId}}" width="{{boardWidth*dpr}}" height="{{boardHeight*dpr}}"></canvas></block></view></block>

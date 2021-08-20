@@ -1,0 +1,8 @@
+{
+  "defaultTitle": "",
+  "usingComponents": {
+    "navbar": "/components/navbar/navbar",
+    "mall-info": "/components/tool/info",
+    "sx-rate": "/components/sx-rate/index"
+  }
+}

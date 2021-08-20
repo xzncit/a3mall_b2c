@@ -1,0 +1,111 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/search/index",
+    "pages/search/list",
+    "pages/group/index",
+    "pages/group/view",
+    "pages/category/index",
+    "pages/public/login",
+    "pages/public/register",
+    "pages/public/oauth",
+    "pages/public/forget",
+    "pages/coupon/index",
+    "pages/comments/view",
+    "pages/goods/index",
+    "pages/goods/list",
+    "pages/goods/view",
+    "pages/regiment/index",
+    "pages/regiment/view",
+    "pages/second/index",
+    "pages/second/view",
+    "pages/special/index",
+    "pages/special/view",
+    "pages/point/index",
+    "pages/point/view",
+    "pages/cart/index",
+    "pages/cart/confirm",
+    "pages/cart/msg",
+    "pages/cart/info",
+    "pages/order/list",
+    "pages/order/detail",
+    "pages/order/express",
+    "pages/order/confirm_delivery",
+    "pages/order/refund",
+    "pages/order/evaluate",
+    "pages/order/service",
+    "pages/bill/rechange",
+    "pages/bill/cashlist",
+    "pages/bill/withdraw",
+    "pages/bill/fund",
+    "pages/ucenter/index",
+    "pages/ucenter/wallet",
+    "pages/ucenter/collect",
+    "pages/ucenter/address",
+    "pages/ucenter/address_editor",
+    "pages/ucenter/coupon",
+    "pages/ucenter/point",
+    "pages/ucenter/setting",
+    "pages/ucenter/help",
+    "pages/news/index",
+    "pages/news/list",
+    "pages/news/view",
+    "pages/sign/index",
+    "pages/sign/log",
+    "pages/spread/index",
+    "pages/spread/cashrecord",
+    "pages/spread/settlement",
+    "pages/spread/poster",
+    "pages/spread/promotion_list",
+    "pages/spread/promotion_order",
+    "pages/spread/commission",
+    "pages/message/index",
+    "pages/message/view"
+  ],
+  "subPackages": [],
+  "window": {
+    "defaultTitle": "A3Mall",
+    "titleBarColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "transparentTitle": "always",
+    "titlePenetrate": "YES"
+  },
+  "tabBar": {
+    "textColor": "#333",
+    "selectedColor": "#1b43c4",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "首页",
+        "icon": "static/tabbar/menu-1.png",
+        "activeIcon": "static/tabbar/menu-active-1.png"
+      },
+      {
+        "pagePath": "pages/category/index",
+        "name": "分类",
+        "icon": "static/tabbar/menu-2.png",
+        "activeIcon": "static/tabbar/menu-active-2.png"
+      },
+      {
+        "pagePath": "pages/message/index",
+        "name": "消息",
+        "icon": "static/tabbar/menu-5.png",
+        "activeIcon": "static/tabbar/menu-active-5.png"
+      },
+      {
+        "pagePath": "pages/cart/index",
+        "name": "购物车",
+        "icon": "static/tabbar/menu-3.png",
+        "activeIcon": "static/tabbar/menu-active-3.png"
+      },
+      {
+        "pagePath": "pages/ucenter/index",
+        "name": "我的",
+        "icon": "static/tabbar/menu-4.png",
+        "activeIcon": "static/tabbar/menu-active-4.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,8 @@
+{
+  "defaultTitle": "",
+  "usingComponents": {
+    "navbar": "/components/navbar/navbar",
+    "uni-steps": "/components/uni-steps/uni-steps",
+    "mall-info": "/components/tool/info"
+  }
+}

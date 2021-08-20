@@ -1,0 +1,8 @@
+{
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "注册",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "loading": "/components/tool/loading"
+  }
+}

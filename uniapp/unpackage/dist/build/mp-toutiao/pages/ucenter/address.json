@@ -1,0 +1,9 @@
+{
+  "navigationBarBackgroundColor": "#B91922",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "我的地址",
+  "usingComponents": {
+    "empty-box": "/components/empty-box/empty-box",
+    "loading": "/components/tool/loading"
+  }
+}

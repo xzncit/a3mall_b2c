@@ -1,0 +1,15 @@
+{
+  "defaultTitle": "",
+  "usingComponents": {
+    "navbar": "/components/navbar/navbar",
+    "mescroll-body": "/uni_modules/mescroll-uni/components/mescroll-body/mescroll-body",
+    "sku-action": "/components/sku-action/sku-action",
+    "authorize": "/components/authorize/authorize",
+    "goods-action": "/components/goods-action/goods-action",
+    "goods-action-button": "/components/goods-action/goods-action-button",
+    "goods-action-icon": "/components/goods-action/goods-action-icon",
+    "share": "/components/share/index",
+    "loading": "/components/tool/loading",
+    "l-painter": "/uni_modules/lime-painter/components/lime-painter/index"
+  }
+}

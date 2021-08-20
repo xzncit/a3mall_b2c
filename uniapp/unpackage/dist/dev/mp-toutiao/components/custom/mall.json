@@ -1,0 +1,23 @@
+{
+  "component": true,
+  "usingComponents": {
+    "mall-header": "/components/custom/mall-header",
+    "mall-search": "/components/custom/mall-search",
+    "mall-slider": "/components/custom/mall-slider",
+    "mall-notice": "/components/custom/mall-notice",
+    "mall-blank": "/components/custom/mall-blank",
+    "mall-navbar": "/components/custom/mall-navbar",
+    "mall-textbar": "/components/custom/mall-textbar",
+    "mall-image": "/components/custom/mall-image",
+    "mall-image-group": "/components/custom/mall-image-group",
+    "mall-textarea": "/components/custom/mall-textarea",
+    "mall-archives": "/components/custom/mall-archives",
+    "mall-archives-category": "/components/custom/mall-archives-category",
+    "mall-video": "/components/custom/mall-video",
+    "mall-bonus": "/components/custom/mall-bonus",
+    "mall-goods": "/components/custom/mall-goods",
+    "mall-group": "/components/custom/mall-group",
+    "mall-regiment": "/components/custom/mall-regiment",
+    "mall-second": "/components/custom/mall-second"
+  }
+}

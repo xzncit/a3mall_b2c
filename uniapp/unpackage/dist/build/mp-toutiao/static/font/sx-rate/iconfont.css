@@ -1,0 +1,17 @@
+@font-face {
+	font-family: "iconfont";
+	src: url('~@/static/font/sx-rate/iconfont.ttf') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: inherit;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-star:before {
+  content: "\e6e3";
+}
+

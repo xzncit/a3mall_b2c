@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.top.data-v-0fd311a0 {
+  height: 140rpx;
+  line-height: 140rpx;
+  background-color: #b91922;
+  color: #fff;
+  padding: 0 30rpx;
+  font-size: 32rpx;
+}
+.top text.data-v-0fd311a0:first-child {
+  float: left;
+}
+.top text.data-v-0fd311a0:last-child {
+  font-size: 30rpx;
+  margin-top: 40rpx;
+  float: right;
+  width: 200rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  border-radius: 60rpx;
+  border: 2rpx solid #fff;
+}
+.list-wrap.data-v-0fd311a0 {
+  width: 100%;
+  margin-top: 20rpx;
+}
+.list-wrap .list-item.data-v-0fd311a0 {
+  width: 100%;
+  height: auto !important;
+  height: 220rpx;
+  background-color: #fff;
+  font-size: 26rpx;
+  margin-bottom: 20rpx;
+}
+.list-wrap .list-item .t.data-v-0fd311a0 {
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 2rpx solid #ebebeb;
+}
+.list-wrap .list-item .t text.data-v-0fd311a0 {
+  font-size: 32rpx;
+  color: #333;
+}
+.list-wrap .list-item .t text.data-v-0fd311a0:first-child {
+  padding-left: 32rpx;
+  float: left;
+}
+.list-wrap .list-item .t text.data-v-0fd311a0:last-child {
+  padding-right: 32rpx;
+  float: right;
+}
+.list-wrap .list-item .box.data-v-0fd311a0 {
+  height: 136rpx;
+  width: 100%;
+}
+.list-wrap .list-item .box .box-item.data-v-0fd311a0 {
+  width: 100%;
+  height: 32rpx;
+  float: left;
+  font-size: 28rpx;
+  color: #888;
+  padding-top: 20rpx;
+}
+.list-wrap .list-item .box .box-item view.data-v-0fd311a0 {
+  display: inline-block;
+}
+.list-wrap .list-item .box .box-item view text.data-v-0fd311a0 {
+  padding-right: 10rpx;
+  position: relative;
+  top: 2rpx;
+}
+.list-wrap .list-item .box .box-item view.data-v-0fd311a0:first-child {
+  padding-left: 32rpx;
+  float: left;
+}
+.list-wrap .list-item .box .box-item view.data-v-0fd311a0:last-child {
+  padding-right: 32rpx;
+  float: right;
+}
+.list-wrap .list-item .box .box-item .c-1.data-v-0fd311a0 {
+  color: #888;
+}
+.list-wrap .list-item .box .box-item .c-3.data-v-0fd311a0 {
+  color: #b91922;
+}
+.list-wrap .list-item .box .box-item .c-2.data-v-0fd311a0 {
+  color: green;
+}
+.list-wrap .list-item .box .box-item.data-v-0fd311a0:nth-child(3) {
+  width: 90%;
+  padding: 20rpx 32rpx;
+  height: auto !important;
+  height: 60rpx;
+  min-height: 60rpx;
+  font-size: 26rpx;
+}
+

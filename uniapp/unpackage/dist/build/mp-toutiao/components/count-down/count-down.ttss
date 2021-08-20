@@ -1,0 +1,6 @@
+.aaa-count-down .day,
+	.aaa-count-down .hour,
+	.aaa-count-down .minute,
+	.aaa-count-down .second,
+	.aaa-count-down .day,
+	.aaa-count-down .day{float:left}

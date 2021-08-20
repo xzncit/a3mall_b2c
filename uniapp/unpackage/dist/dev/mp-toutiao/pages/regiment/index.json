@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#B91922",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "团购列表",
+  "usingComponents": {
+    "mescroll-body": "/uni_modules/mescroll-uni/components/mescroll-body/mescroll-body"
+  }
+}

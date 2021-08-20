@@ -1,0 +1,8 @@
+{
+  "defaultTitle": "推广名片",
+  "titleBarColor": "#B91922",
+  "usingComponents": {
+    "empty-box": "/components/empty-box/empty-box",
+    "loading": "/components/tool/loading"
+  }
+}

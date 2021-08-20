@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.almost-lottery.data-v-00aaa11e {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  background-color: #3b065d;
+}
+.almost-lottery__head.data-v-00aaa11e {
+  position: relative;
+  width: 100%;
+  height: 512rpx;
+}
+.almost-lottery__head image.data-v-00aaa11e {
+  width: 100%;
+  height: 512rpx;
+}
+.almost-lottery__head .tip.data-v-00aaa11e {
+  width: 100%;
+  position: absolute;
+  z-index: 111;
+  top: 410rpx;
+  color: #FFFFFF;
+  font-size: 24rpx;
+  text-align: center;
+  padding: 10rpx 0;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(10%, rgba(0, 0, 0, 0)), color-stop(20%, rgba(0, 0, 0, 0.3)), color-stop(30%, rgba(0, 0, 0, 0.4)), color-stop(40%, rgba(0, 0, 0, 0.5)), color-stop(50%, rgba(0, 0, 0, 0.8)), color-stop(60%, rgba(0, 0, 0, 0.5)), color-stop(70%, rgba(0, 0, 0, 0.4)), color-stop(80%, rgba(0, 0, 0, 0.3)), color-stop(90%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0)));
+  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.3) 20%, rgba(0, 0, 0, 0.4) 30%, rgba(0, 0, 0, 0.5) 40%, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0.4) 70%, rgba(0, 0, 0, 0.3) 80%, rgba(0, 0, 0, 0) 90%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.3) 20%, rgba(0, 0, 0, 0.4) 30%, rgba(0, 0, 0, 0.5) 40%, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0.4) 70%, rgba(0, 0, 0, 0.3) 80%, rgba(0, 0, 0, 0) 90%, rgba(0, 0, 0, 0) 100%);
+}
+.almost-lottery__head .swiper.data-v-00aaa11e {
+  height: 35rpx;
+}
+.almost-lottery__head .tip-content.data-v-00aaa11e {
+  width: 460rpx;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  margin: 0 auto;
+}
+.almost-lottery__wheel.data-v-00aaa11e {
+  text-align: center;
+}
+.almost-lottery__wheel .count.data-v-00aaa11e {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  text-align: center;
+  padding: 30rpx 0;
+}
+.almost-lottery__wheel .text.data-v-00aaa11e {
+  color: #FFFFFF;
+  font-size: 33rpx;
+  padding: 10rpx 30rpx;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 30rpx;
+}
+.almost-lottery__wheel .point.data-v-00aaa11e {
+  color: #ffb400;
+  font-size: 33rpx;
+  padding: 10rpx 0;
+}
+.almost-lottery_rule.data-v-00aaa11e {
+  margin: 0 36rpx;
+  border: 1px solid #724b8a;
+  border-radius: 20rpx;
+  color: #fff;
+  min-height: 200rpx;
+}
+.almost-lottery_rule .rule-title.data-v-00aaa11e {
+  width: 100%;
+  float: left;
+  margin-top: 50rpx;
+  text-indent: 40rpx;
+  font-size: 33rpx;
+}
+.almost-lottery_rule .rule-content.data-v-00aaa11e {
+  width: 590rpx;
+  padding: 10rpx 0;
+  float: left;
+  margin: 10rpx 40rpx 10rpx 40rpx;
+  line-height: 40rpx;
+  font-size: 24rpx;
+}
+.almost-lottery_rule_footer.data-v-00aaa11e {
+  width: 100%;
+  height: 50rpx;
+}
+

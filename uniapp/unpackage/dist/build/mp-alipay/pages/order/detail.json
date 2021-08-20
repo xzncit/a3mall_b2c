@@ -1,0 +1,8 @@
+{
+  "defaultTitle": "订单详情",
+  "titleBarColor": "#B91922",
+  "usingComponents": {
+    "uni-steps": "/components/uni-steps/uni-steps",
+    "mall-info": "/components/tool/info"
+  }
+}

@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.header.data-v-cf95a17a {
+  width: 93%;
+  height: 70rpx;
+  line-height: 90rpx;
+  margin: 0 auto;
+  position: relative;
+}
+.header .logo.data-v-cf95a17a {
+  float: left;
+}
+.header .logo text.data-v-cf95a17a:first-child {
+  color: #fff;
+  font-size: 42rpx;
+  padding-right: 16rpx;
+  position: relative;
+}
+.header .logo text.data-v-cf95a17a:first-child:after {
+  border-right: 2rpx solid #dc8c91;
+  width: 2rpx;
+  height: 36rpx;
+  content: " ";
+  position: absolute;
+  right: -4rpx;
+  top: 8rpx;
+}
+.header .logo text.data-v-cf95a17a:last-child {
+  color: #fff000;
+  font-size: 38rpx;
+  padding-left: 26rpx;
+}
+.header .cart.data-v-cf95a17a {
+  float: right;
+  width: 48rpx;
+  height: 40rpx;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAkCAYAAAAdFbNSAAAACXBIWXMAAAsTAAALEwEAmpwYAAAF92lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDggNzkuMTY0MDM2LCAyMDE5LzA4LzEzLTAxOjA2OjU3ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdEV2dD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlRXZlbnQjIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtbG5zOnBob3Rvc2hvcD0iaHR0cDovL25zLmFkb2JlLmNvbS9waG90b3Nob3AvMS4wLyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgMjEuMCAoTWFjaW50b3NoKSIgeG1wOkNyZWF0ZURhdGU9IjIwMjAtMDctMDFUMTc6MTg6NDIrMDg6MDAiIHhtcDpNZXRhZGF0YURhdGU9IjIwMjAtMDctMDFUMTc6MTg6NDIrMDg6MDAiIHhtcDpNb2RpZnlEYXRlPSIyMDIwLTA3LTAxVDE3OjE4OjQyKzA4OjAwIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOmMwMWZiZTA0LWQxYzktNDQxMS1iM2IxLTE2NzdlMzZlYmFjNiIgeG1wTU06RG9jdW1lbnRJRD0iYWRvYmU6ZG9jaWQ6cGhvdG9zaG9wOjY5MjNiNWUyLTAyYzEtZmU0Yy05ODYwLWM0NjkyZTFlZDVkOCIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjkwY2FkMTJiLWMyYmUtNDhhYy04ZGYyLWE5YzE1Yzc3NDMyYSIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSI+IDx4bXBNTTpIaXN0b3J5PiA8cmRmOlNlcT4gPHJkZjpsaSBzdEV2dDphY3Rpb249ImNyZWF0ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6OTBjYWQxMmItYzJiZS00OGFjLThkZjItYTljMTVjNzc0MzJhIiBzdEV2dDp3aGVuPSIyMDIwLTA3LTAxVDE3OjE4OjQyKzA4OjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjEuMCAoTWFjaW50b3NoKSIvPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0ic2F2ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6YzAxZmJlMDQtZDFjOS00NDExLWIzYjEtMTY3N2UzNmViYWM2IiBzdEV2dDp3aGVuPSIyMDIwLTA3LTAxVDE3OjE4OjQyKzA4OjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjEuMCAoTWFjaW50b3NoKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6pt7ELAAAEAUlEQVRYhb2YXYhVVRTHf3dmMh2HsRkn7xSVUmCJb4H2EEGNZIhloRIVapG+aB/PBkEPQe+VUS8FQQ8GSQwVSUlNliEUCGKkNJVhM5N2zZmpsZxJ/z2sfbrr3nuud99zz/UHm7P3Xnvvs84+a639UZDUCzwHLAcuUksn8CvwIlBKkV9xuoBtwO6Itn8Cz7dXnTg6gNnIthuBnjbqEk1B0gLgaeCOFPkgcKcr3wV85cr9wABwFpgB/mmTnhUUJF1Ofg3wC9AbynuAZ0L+OmAYWAZMAn8Df2B/7udQ91uomwhpJrS7gH3gLOl+dFm6GsgngU+AzaE8BCwMLy8ANwDXhhTLGeAc9ncmQ34C+5gxYBo4jfnQGcz5ZypGkNQobVOZi5KGnOxttYcLkmYklSSNSTop6bCkfZJWNZppgJHw5UXMcdcBnwXZMLA1zDrAIeB74BagG1gKXBXSvJA6It6ZtO12dUvDc7CRTScMAxtC/kdgJWaXvcBxzL4B3gK2u34dmF8MAItDKoZ+g0HWF+q6Q11PqK/H0RjzQNIW9+vmJK11sjec7KSkJZFj+nS1pB5Jg5JukrRC0mpJD0l6UtJx947h2EGvl3TadXzNyTa4+kuSNmZQulE64N7xeox9gXn3iCuvcb/wSyzEgdn2+sgxY1mImVfCeKzSAj505VuB20P+HHDQydZji05e9GN2nzAWqzTAx8C4Kz/s8ntdvgisbV63uvRRqfTvzShdwhRPSBYasFB3zMkeyKReOn2UQ98sMNmM0gD7MFMBuBlTHGz12u/arQFuzKhkNf3Y9hhgiiZnGuAbyk7XCWxyso+Af0O+CNydTcca/BZhGijFrIieEvAFNstgq2M/tin6GhgFbguyZ4FF2GqYlTngPleeBqayxMz7VcljTvaS2stBSVH7gGpGsO1qgne698PstItRaLyfrsce4KmQHwdWhWcBeBwzjfmUnbZVCphp7gS+y6r0OuADyl69GYssCZ3AAvJV+q//SxlsGkmLJI06W3s34ziZUrPRI2EK+BTbN4PF5e3AeeL2y7F0YKeb/XhfaeGLh1oJA02yy7+7lVn5FvihpXmMZ4UvZHXEhC3AC9geJC+nq+YUsAO3t2lVabBIsQS41OpAKQg7kVeQh9JXnKzRox6PYKfzTuBz4GXib50eBJ7A4vth4BVsT1NLC9GjOu2QnRE970nqiui7NSVijMgOuzXt81J4QNKpOuHq3gZ9uyUdqdM39ZCc10LQh12RpbGsQd8i5XuTapanVeal9FngpzqyY3XqEyaoPHt6TqTW5mQeiV3OVf3eVyUVIvpukt3defZKmpfWPu+Qdw8WBRYDB4B3iL/KXQ08il2NHQLexG5Sa/gPn0T937DaJDIAAAAASUVORK5CYII=);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 24rpx;
+}
+

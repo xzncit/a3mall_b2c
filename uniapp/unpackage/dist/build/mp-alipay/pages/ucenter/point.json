@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "我的积分",
+  "titleBarColor": "#B91922",
+  "usingComponents": {
+    "mescroll-body": "/uni_modules/mescroll-uni/components/mescroll-body/mescroll-body"
+  }
+}

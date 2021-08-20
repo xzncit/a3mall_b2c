@@ -1,0 +1,1 @@
+<block tt:if="{{!isEmpty}}"><view data-event-opts="{{[['tap',[['jump',['$event']]]]]}}" class="notice-box data-v-5fb2b42c" bindtap="__e"><view class="notice-icon iconfont data-v-5fb2b42c" style="{{'color:'+(rdata.params.color)+';'}}"></view><view class="notice-text data-v-5fb2b42c" style="{{'color:'+(rdata.params.color)+';'}}">{{text}}</view></view></block>

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "navbar": "/components/navbar/navbar",
+    "mescroll-body": "/uni_modules/mescroll-uni/components/mescroll-body/mescroll-body",
+    "empty-box": "/components/empty-box/empty-box",
+    "loading": "/components/tool/loading"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#B91922",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "搜索商品",
+  "usingComponents": {
+    "mescroll-body": "/uni_modules/mescroll-uni/components/mescroll-body/mescroll-body"
+  }
+}

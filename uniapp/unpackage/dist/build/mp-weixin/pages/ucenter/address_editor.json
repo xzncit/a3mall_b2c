@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "navbar": "/components/navbar/navbar",
+    "lb-picker": "/components/lb-picker/index"
+  }
+}

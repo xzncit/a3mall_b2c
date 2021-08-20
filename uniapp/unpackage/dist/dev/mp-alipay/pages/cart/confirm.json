@@ -1,0 +1,10 @@
+{
+  "defaultTitle": "",
+  "usingComponents": {
+    "navbar": "/components/navbar/navbar",
+    "coupon-list": "/components/coupon-list/coupon-list",
+    "address-list": "/components/address-list/address-list",
+    "mall-info": "/components/tool/info",
+    "loading": "/components/tool/loading"
+  }
+}

@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['btn',['$event']]]]]}}" class="{{(('goods-action-button data-v-7eb3cb7e')+' '+('button-'+type))}}" onTap="__e">{{''+text+''}}</view>

@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "",
+  "usingComponents": {
+    "navbar": "/components/navbar/navbar"
+  }
+}
