@@ -7,12 +7,18 @@
  | [视频教程](http://doc-uniapp.a3-mall.com/video)
 
 ## 项目介绍
-   A3Mall 后端基于 ThinkPHP6 和 Bootstrap 开发的开源商城系统，前端采用uniapp开发，支持微信公众号商城、H5商城、小程序商城、APP商城、PC商城，前后端源码100%开源，支持免费商用。
+   A3Mall 后端基于 ThinkPHP6 + Bootstrap 开发的开源商城系统，前端采用uniapp开发，支持微信公众号商城、H5商城、小程序商城、APP商城、PC商城，前后端源码100%开源，支持免费商用。
 
 
 ## QQ交流群
 A3Mall开源商城官方群: 892150829  <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=lBxucAil6e6WTlwX0tNvQwpOtfLP2ptd&jump_from=webapi"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="A3Mall官方交流1群" title="A3Mall官方交流1群"></a>
 
+## 开发计划
+1. 使用uniapp重构vue2 H5端所有页面 【 √ 】
+2. 适配H5端和支持微信公众号 【 √ 】
+3. 适配APP Android、IOS端功能 【 √ 】
+4. 移除现有wechat api使用微信 composer 开发包 【 x 】
+5. 使用iView或者ant vue design重构后台所有功能 【 x 】
 
 ## 软件架构
     PHP >= 7.3.0
