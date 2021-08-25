@@ -1,8 +1,0 @@
-{
-  "navigationBarBackgroundColor": "#B91922",
-  "navigationBarTextStyle": "white",
-  "navigationBarTitleText": "优惠劵",
-  "usingComponents": {
-    "mescroll-body": "/uni_modules/mescroll-uni/components/mescroll-body/mescroll-body"
-  }
-}

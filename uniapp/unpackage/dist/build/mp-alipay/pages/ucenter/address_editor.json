@@ -1,7 +1,0 @@
-{
-  "defaultTitle": "编辑地址",
-  "titleBarColor": "#B91922",
-  "usingComponents": {
-    "lb-picker": "/components/lb-picker/index"
-  }
-}

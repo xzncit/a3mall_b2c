@@ -1,5 +1,8 @@
 <h1 align="center">A3Mall商城系统</h1> 
 
+<p align="center">    
+    <b>如果对您有所帮助，您可以点右上角 "Star" 收藏一下 ，获取第一时间更新，谢谢！</b>
+</p>
 
 ## 导航栏目
  [官网地址](http://www.a3-mall.com)
@@ -18,7 +21,7 @@ A3Mall开源商城官方群: 892150829  <a target="_blank" href="https://qm.qq.c
 2. 适配H5端和支持微信公众号 【 √ 】
 3. 适配APP Android、IOS端功能 【 √ 】
 4. 移除现有wechat api使用微信 composer 开发包 【 x 】
-5. 使用iView或者ant vue design重构后台所有功能 【 x 】
+5. 使用iView或者ant design vue重构后台所有功能 【 x 】
 
 ## 软件架构
     PHP >= 7.3.0

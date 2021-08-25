@@ -1,7 +1,0 @@
-{
-  "defaultTitle": "",
-  "usingComponents": {
-    "navbar": "/components/navbar/navbar",
-    "mall-info": "/components/tool/info"
-  }
-}

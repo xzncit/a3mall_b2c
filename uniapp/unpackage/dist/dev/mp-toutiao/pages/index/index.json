@@ -1,8 +1,0 @@
-{
-  "usingComponents": {
-    "mescroll-body": "/uni_modules/mescroll-uni/components/mescroll-body/mescroll-body",
-    "mall": "/components/custom/mall",
-    "empty-box": "/components/empty-box/empty-box",
-    "loading": "/components/tool/loading"
-  }
-}

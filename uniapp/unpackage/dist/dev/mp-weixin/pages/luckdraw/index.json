@@ -1,9 +1,0 @@
-{
-  "navigationBarTitleText": "",
-  "usingComponents": {
-    "navbar": "/components/navbar/navbar",
-    "almost-lottery": "/uni_modules/almost-lottery/components/almost-lottery/almost-lottery",
-    "authorize": "/components/authorize/authorize",
-    "loading": "/components/tool/loading"
-  }
-}

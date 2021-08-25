@@ -1,1 +1,0 @@
-<view data-event-opts="{{[['tap',[['onClose',['$event']]]]]}}" class="{{['mask','_div','data-v-304119c4',(value==false)?'hide':'',(value==true)?'show':'']}}" catchtap="__e"><slot></slot></view>

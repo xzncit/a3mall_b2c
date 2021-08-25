@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "商品分类",
-  "usingComponents": {
-    "empty-box": "/components/empty-box/empty-box",
-    "loading": "/components/tool/loading"
-  }
-}

@@ -1,1 +1,0 @@
-<view class="video data-v-2733dd35"><video src="{{rdata.params.list[0].url}}" poster="{{rdata.params.list[0].thumb_image}}" controls="{{true}}" class="data-v-2733dd35"></video></view>

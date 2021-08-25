@@ -68,7 +68,7 @@
             <!-- Navbar Right Menu -->
             <div class="navbar-custom-menu">
                 <ul class="nav navbar-nav">
-                    <li><a href="{:url('home/index/index')}" target="_blank"><i class="fa fa-home"></i>&nbsp;网站前台</a></li>
+                    <li><a href="/" target="_blank"><i class="fa fa-home"></i>&nbsp;网站前台</a></li>
                     <li><a href="{:url('login/logout')}"><i class="fa fa-sign-out"></i>&nbsp;退出</a></li>
                 </ul>
             </div>

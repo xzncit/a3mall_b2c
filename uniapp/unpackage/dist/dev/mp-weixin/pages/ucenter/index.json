@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "",
-  "usingComponents": {
-    "navbar": "/components/navbar/navbar",
-    "authorize": "/components/authorize/authorize"
-  }
-}

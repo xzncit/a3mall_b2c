@@ -1,9 +1,0 @@
-{
-  "navigationBarTextStyle": "black",
-  "navigationBarTitleText": "拼团",
-  "navigationStyle": "custom",
-  "usingComponents": {
-    "mescroll-body": "/uni_modules/mescroll-uni/components/mescroll-body/mescroll-body",
-    "navbar": "/components/navbar/navbar"
-  }
-}

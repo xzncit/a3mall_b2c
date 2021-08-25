@@ -1,7 +1,0 @@
-{
-  "defaultTitle": "确认收货",
-  "titleBarColor": "#B91922",
-  "usingComponents": {
-    "mall-info": "/components/tool/info"
-  }
-}

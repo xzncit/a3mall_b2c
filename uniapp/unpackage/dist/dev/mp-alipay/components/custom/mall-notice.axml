@@ -1,1 +1,0 @@
-<block a:if="{{!isEmpty}}"><view data-event-opts="{{[['tap',[['jump',['$event']]]]]}}" class="notice-box data-v-52a273e4" onTap="__e"><view class="notice-icon iconfont data-v-52a273e4" style="{{'color:'+(rdata.params.color)+';'}}"></view><view class="notice-text data-v-52a273e4" style="{{'color:'+(rdata.params.color)+';'}}">{{text}}</view></view></block>

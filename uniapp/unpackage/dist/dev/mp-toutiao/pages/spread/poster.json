@@ -1,9 +1,0 @@
-{
-  "navigationBarBackgroundColor": "#B91922",
-  "navigationBarTextStyle": "white",
-  "navigationBarTitleText": "推广名片",
-  "usingComponents": {
-    "empty-box": "/components/empty-box/empty-box",
-    "loading": "/components/tool/loading"
-  }
-}

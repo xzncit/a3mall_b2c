@@ -1,6 +1,0 @@
-{
-  "defaultTitle": "注册",
-  "usingComponents": {
-    "loading": "/components/tool/loading"
-  }
-}

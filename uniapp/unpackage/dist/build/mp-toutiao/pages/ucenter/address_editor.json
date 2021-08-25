@@ -1,8 +1,0 @@
-{
-  "navigationBarBackgroundColor": "#B91922",
-  "navigationBarTextStyle": "white",
-  "navigationBarTitleText": "编辑地址",
-  "usingComponents": {
-    "lb-picker": "/components/lb-picker/index"
-  }
-}

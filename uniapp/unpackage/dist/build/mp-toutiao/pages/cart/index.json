@@ -1,9 +1,0 @@
-{
-  "navigationBarTextStyle": "white",
-  "navigationBarTitleText": "购物车",
-  "navigationBarBackgroundColor": "#B91922",
-  "usingComponents": {
-    "mescroll-body": "/uni_modules/mescroll-uni/components/mescroll-body/mescroll-body",
-    "uni-number-box": "/components/uni-number-box/uni-number-box"
-  }
-}

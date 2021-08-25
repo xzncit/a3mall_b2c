@@ -1,7 +1,0 @@
-{
-  "defaultTitle": "商品评论",
-  "backgroundColor": "#FFFFFF",
-  "usingComponents": {
-    "mescroll-body": "/uni_modules/mescroll-uni/components/mescroll-body/mescroll-body"
-  }
-}

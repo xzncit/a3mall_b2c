@@ -1,9 +1,0 @@
-{
-  "navigationBarBackgroundColor": "#B91922",
-  "navigationBarTextStyle": "white",
-  "navigationBarTitleText": "订单详情",
-  "usingComponents": {
-    "uni-steps": "/components/uni-steps/uni-steps",
-    "mall-info": "/components/tool/info"
-  }
-}

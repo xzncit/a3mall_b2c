@@ -1,7 +1,0 @@
-{
-  "defaultTitle": "登录",
-  "usingComponents": {
-    "loading": "/components/tool/loading",
-    "navbar": "/components/navbar/navbar"
-  }
-}

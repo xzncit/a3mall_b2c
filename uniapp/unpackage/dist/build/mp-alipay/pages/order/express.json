@@ -1,8 +1,0 @@
-{
-  "defaultTitle": "物流信息",
-  "titleBarColor": "#B91922",
-  "usingComponents": {
-    "uni-steps": "/components/uni-steps/uni-steps",
-    "mall-info": "/components/tool/info"
-  }
-}

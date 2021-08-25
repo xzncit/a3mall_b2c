@@ -1,8 +1,0 @@
-{
-  "navigationBarTextStyle": "black",
-  "navigationBarTitleText": "快捷登录",
-  "navigationStyle": "custom",
-  "usingComponents": {
-    "loading": "/components/tool/loading"
-  }
-}

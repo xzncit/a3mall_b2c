@@ -1,9 +1,0 @@
-{
-  "navigationBarBackgroundColor": "#B91922",
-  "navigationBarTextStyle": "white",
-  "navigationBarTitleText": "商品评价",
-  "usingComponents": {
-    "mall-info": "/components/tool/info",
-    "sx-rate": "/components/sx-rate/index"
-  }
-}

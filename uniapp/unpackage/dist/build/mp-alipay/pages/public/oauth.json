@@ -1,6 +1,0 @@
-{
-  "defaultTitle": "快捷登录",
-  "usingComponents": {
-    "loading": "/components/tool/loading"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "navigationBarBackgroundColor": "#B91922",
-  "navigationBarTextStyle": "white",
-  "navigationBarTitleText": "确认收货",
-  "usingComponents": {
-    "mall-info": "/components/tool/info"
-  }
-}

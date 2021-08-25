@@ -1,8 +1,0 @@
-{
-  "defaultTitle": "我的地址",
-  "titleBarColor": "#B91922",
-  "usingComponents": {
-    "empty-box": "/components/empty-box/empty-box",
-    "loading": "/components/tool/loading"
-  }
-}

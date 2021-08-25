@@ -1,8 +1,0 @@
-{
-  "defaultTitle": "",
-  "usingComponents": {
-    "navbar": "/components/navbar/navbar",
-    "empty-box": "/components/empty-box/empty-box",
-    "loading": "/components/tool/loading"
-  }
-}
