@@ -5,6 +5,4 @@ export default {
 	web_app_id: "1000",
 	debug: false,
 	
-	// websocket 配置
-	web_socket_url: "ws://demo.a3-mall.net:2348"
 } 
