@@ -45,7 +45,6 @@ class OAuth extends Base {
             return $this->returnAjax($e->getMessage(),0);
         }
 
-        $spread_id = Request::param("spread_id","0","intval");
         if (isset($token['openid'])) {
             $user = WeChat::Oauth()->getUserInfo($token['access_token'],$token['openid']);
 
@@ -73,17 +72,6 @@ class OAuth extends Base {
                         "last_login"=>time()
                     ];
 
-                    if(\mall\basic\Spread::getConfig("type") != 0 && Db::name("users")->where("id",(int)$spread_id)->count()){
-                        $data["is_spread"] = 1;
-                        $data["spread_id"] = $spread_id;
-                        $data["spread_time"] = time();
-                    }else{
-                        if(\mall\basic\Spread::getConfig("type") == 1){
-                            $data["is_spread"] = 1;
-                            $data["spread_time"] = time();
-                        }
-                    }
-
                     Db::name("users")->insert($data);
 
                     $row["user_id"] = Db::name("users")->getLastInsID();
@@ -92,16 +80,6 @@ class OAuth extends Base {
                     ])->update(["user_id"=>$row["user_id"]]);
                 }else{
                     $users = Db::name("users")->where('id',$row["user_id"])->find();
-                    if(($users["is_spread"] == 0 && $users["spread_id"] == 0) && ($r = Db::name("users")->where("id",(int)$spread_id)->find()) != false){
-                        if($r["id"] != $users["id"]){
-                            Db::name("users")->where('id',$row["user_id"])->update([
-                                "is_spread"=>1,
-                                "spread_id"=>$spread_id,
-                                "spread_time"=>time()
-                            ]);
-                        }
-                    }
-
                     Db::name("wechat_users")->where(["user_id"=>$users["id"]])->where('openid=""')->update(['openid' => $user['openid']]);
                 }
 
@@ -140,17 +118,6 @@ class OAuth extends Base {
                     "last_login"=>time()
                 ];
 
-                if(\mall\basic\Spread::getConfig("type") != 0 && Db::name("users")->where("id",(int)$spread_id)->count()){
-                    $data["is_spread"] = 1;
-                    $data["spread_id"] = $spread_id;
-                    $data["spread_time"] = time();
-                }else{
-                    if(\mall\basic\Spread::getConfig("type") == 1){
-                        $data["is_spread"] = 1;
-                        $data["spread_time"] = time();
-                    }
-                }
-
                 Db::name("users")->insert($data);
 
                 $user_id = Db::name("users")->getLastInsID();
@@ -170,7 +137,6 @@ class OAuth extends Base {
                 ]));
 
                 $token = Token::set($user_id);
-
                 $info = Users::info($user_id);
                 return $this->returnAjax("注册成功！",2,[
                     "id"=>$info["id"],
