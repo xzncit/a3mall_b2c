@@ -12,6 +12,9 @@
 ## 项目介绍
    A3Mall 后端基于 ThinkPHP6 + Bootstrap 开发的开源商城系统，前端采用uniapp开发，支持微信公众号商城、H5商城、小程序商城、APP商城、PC商城，前后端源码100%开源，支持免费商用。
 
+## 项目版本
+    A3Mall V2开源商城 https://gitee.com/a3mall/A3Mall
+    
 
 ## QQ交流群
 A3Mall开源商城官方群: 892150829  <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=lBxucAil6e6WTlwX0tNvQwpOtfLP2ptd&jump_from=webapi"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="A3Mall官方交流1群" title="A3Mall官方交流1群"></a>
