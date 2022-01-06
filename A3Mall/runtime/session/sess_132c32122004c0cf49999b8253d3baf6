@@ -1,1 +1,0 @@
-a:2:{s:14:"system_user_id";i:1;s:5:"users";a:14:{s:2:"id";i:1;s:7:"role_id";i:1;s:6:"avatar";s:0:"";s:8:"username";s:5:"admin";s:8:"password";s:32:"7fef6171469e80d32c0559f88b377245";s:4:"salt";s:0:"";s:5:"email";s:12:"admin@qq.com";s:2:"ip";s:9:"127.0.0.1";s:6:"status";i:0;s:4:"lock";i:1;s:5:"count";i:1289;s:4:"time";i:1629364183;s:5:"title";s:15:"超级管理员";s:7:"purview";s:2:"-1";}}
