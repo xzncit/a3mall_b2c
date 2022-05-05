@@ -19,13 +19,6 @@
 ## QQ交流群
 A3Mall开源商城官方群: 892150829  <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=lBxucAil6e6WTlwX0tNvQwpOtfLP2ptd&jump_from=webapi"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="A3Mall官方交流1群" title="A3Mall官方交流1群"></a>
 
-## 开发计划
-1. 使用uniapp重构vue2 H5端所有页面 【 √ 】
-2. 适配H5端和支持微信公众号 【 √ 】
-3. 适配APP Android、IOS端功能 【 √ 】
-4. 移除现有wechat api使用微信 composer 开发包 【 x 】
-5. 使用iView或者ant design vue重构后台所有功能 【 x 】
-
 ## 软件架构
     PHP >= 7.3.0
     MySQL >= 5.6
@@ -62,8 +55,8 @@ A3Mall开源商城官方群: 892150829  <a target="_blank" href="https://qm.qq.c
 ![输入图片说明](https://gitee.com/a3mall/a3mall_b2c/raw/master/readme/images/2.jpg "2.jpg")
 
 ### 后端演示
-后台地址：https://demo.a3-mall.net/admin
-用户：admin
+网址：https://uniapp.a3-mall.com/admin
+账号：admin
 密码：admin888
 
 #### 后端功能列表
